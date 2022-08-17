@@ -41,7 +41,7 @@ function Navbar() {
           <a href="" className="cta-link">
             Sign in
           </a>
-          <Button children={'Get Started Free'} />
+          <Button children={'Get Started Free'} backgroundColor={'black'} />
         </div>
       </div>
     </div>
