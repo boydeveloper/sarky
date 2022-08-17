@@ -1,0 +1,47 @@
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  place-items: center;
+}
+.features-heading {
+  font-size: 4.8rem;
+  font-family: 'Clash Display';
+  font-weight: 600;
+}
+.features-summary {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  max-width: 52.6rem;
+  font-weight: 400;
+}
+.margin-bottom {
+  margin-bottom: 10rem;
+}
+.card {
+  border: 0.2rem solid var(--text-color);
+  border-radius: 2rem;
+  padding: 4.2rem 3.7rem;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-1.9rem);
+}
+.card img {
+  margin-bottom: 4rem;
+}
+.card-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.card-summary {
+  line-height: 2.4rem;
+  opacity: 0.7;
+  font-size: 1.6rem;
+  margin-bottom: 4.4rem;
+}
+.card-cta {
+  font-weight: 600;
+  font-size: 1.6rem;
+}

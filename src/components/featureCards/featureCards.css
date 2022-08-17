@@ -1,0 +1,62 @@
+.pricing-cards {
+  padding: 5rem;
+  border-radius: 2rem;
+}
+.pricing-plan {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+  line-height: 2.8rem;
+}
+.pricing-price {
+  font-family: 'Clash Display';
+  font-weight: 600;
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+.pricing-duration {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.border {
+  content: '';
+  display: block;
+
+  opacity: 0.1;
+
+  border-bottom: 1px solid #12141d;
+  margin-bottom: 3.4rem;
+}
+.pricing-lists {
+  list-style: none;
+  margin-bottom: 4rem;
+}
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border-radius: 50%;
+  background-color: var(--bg-green);
+  color: #fff;
+}
+.pricing-list {
+  display: flex;
+  align-items: center;
+}
+.pricing-list p {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+.pricing-btn {
+  padding: 1rem 4.95rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 3px;
+  border: 2px solid (--text-color);
+  cursor: pointer;
+}

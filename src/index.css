@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('http://fonts.cdnfonts.com/css/clash-display');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+:root {
+  --bg-green: #86e7b8;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  --bg-nude: #ffacac;
+  --bg-grey: #e5eef5;
+  --color-black: #000;
+  --color-white: #fff;
+  --text-color: #12141d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 1400px) {
+  html {
+    font-size: 58%;
+  }
+}
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.container {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+.heading-primary {
+  font-family: 'Clash Display';
+  font-weight: 600;
+  font-size: 4.8rem;
+  margin-bottom: 4rem;
+}
+.text-summary {
+}
+.white {
+  background-color: var(--color-white);
+  color: var(--text-color);
+}
+.black {
+  background-color: var(--text-color);
+  color: var(--color-white);
+}
+.text-center {
+  text-align: center;
+}
+.grey {
+  background-color: var(--bg-grey);
+}
+.transperent {
+  background-color: transparent;
+}
+.play-btn {
+  display: flex;
+  align-items: center;
+  padding: 1.6rem 4.03rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border: 0.2rem solid var(--text-color);
+  cursor: pointer;
+}
+.play-btn p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 0.9rem;
+}
+.font {
+  font-size: 1.6rem !important;
 }

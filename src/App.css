@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.section-hero {
+  position: relative;
+  padding: 0 0 13.6rem 0;
+  background-color: #f1dfd5;
+}
+.section-features {
+  padding: 10rem 0;
+}
+.section-social {
+  padding-bottom: 10rem;
+}
+.section-numbers {
+  background-color: var(--bg-grey);
+  padding: 5rem 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-cards,
+.section-promote,
+.section-testimonials,
+.section-footer {
+  padding: 10rem 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-testimonials {
+  background-color: #f1dfd5;
+  position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section-testimonials::after {
+  content: url('./assets/greenStar.png');
+  position: absolute;
+  bottom: 0;
+  left: 28%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-testimonials::before {
+  content: url('./assets/blackShape.png');
+  top: 0%;
+  position: absolute;
+  right: 20%;
 }

@@ -1,0 +1,23 @@
+.Numbers {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.Number {
+  display: flex;
+  flex-direction: column;
+}
+.Number:last-child {
+  justify-self: right;
+}
+.Number-dur {
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  opacity: 0.6;
+}
+.Number-head {
+  font-family: 'Clash Display';
+  font-weight: 500;
+  font-size: 7.2rem;
+}

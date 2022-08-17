@@ -1,0 +1,8 @@
+.u-button {
+  padding: 1.6rem 2rem;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

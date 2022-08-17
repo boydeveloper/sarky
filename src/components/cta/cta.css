@@ -1,0 +1,19 @@
+.cta {
+  background-color: var(--bg-green);
+  border-radius: 5rem;
+  padding: 8rem;
+  position: relative;
+  margin-bottom: 9.4rem;
+}
+.cta::after {
+  content: url('../../assets/bigWstroke.png');
+  position: absolute;
+  top: -0.5%;
+  left: -1.5%;
+}
+.cta::before {
+  content: url('../../assets/wNoodles.png');
+  position: absolute;
+  right: 15%;
+  top: 30%;
+}

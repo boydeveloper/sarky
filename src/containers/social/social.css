@@ -1,0 +1,33 @@
+.img-box {
+  background-color: var(--bg-green);
+  border-radius: 1.3rem;
+  padding: 2.2rem 8.2rem;
+  justify-self: left;
+  position: relative;
+}
+
+.img-box-2 {
+  border-radius: 1.3rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-nude);
+  justify-self: right;
+}
+.img-box-2 img,
+.img-box img {
+  width: 100%;
+}
+.img-box::after {
+  content: url('../../assets/strokes.png');
+  position: absolute;
+  right: -5%;
+  top: -5%;
+}
+
+.social-summary {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.mb-sm {
+  margin-bottom: 4rem;
+}

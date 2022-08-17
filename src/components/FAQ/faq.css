@@ -1,0 +1,14 @@
+.FAQ {
+  margin-top: 10rem;
+}
+
+.faq-heading {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+.faq-subtext {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  max-width: 49.6rem;
+}

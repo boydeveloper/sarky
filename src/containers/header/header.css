@@ -1,0 +1,86 @@
+.hero {
+  text-align: center;
+  padding-top: 8rem;
+  position: relative;
+}
+
+.text-box {
+  max-width: 85.6rem;
+  margin: 0 auto;
+}
+.textbox-img {
+  content: url('../../assets/Socialicons.png');
+  position: absolute;
+  width: 100%;
+  top: 20%;
+}
+.hero-heading {
+  font-size: 8rem;
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 600;
+  line-height: 9rem;
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+.hero-heading::after {
+  content: url(../../assets/shapes.png);
+  position: absolute;
+  top: -23%;
+  right: -3%;
+}
+.hero-summary {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  margin-bottom: 6rem;
+}
+.hero-ctas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+.heroShape {
+  content: url('../../assets/shapei.png');
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 6%;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brandName {
+  display: flex;
+  align-items: baseline;
+}
+.pilot {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.green-star {
+  color: #00b67a;
+  font-size: 3rem;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  margin-left: 1.4rem;
+}
+.stars span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.stars p {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+.star {
+  color: #f59e0b;
+  font-size: 2rem;
+}

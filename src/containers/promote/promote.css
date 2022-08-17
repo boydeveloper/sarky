@@ -1,0 +1,37 @@
+.promoteImg-box {
+  background-color: var(--bg-green);
+  padding: 3.4rem 11.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: left;
+  justify-content: center;
+  border-radius: 2rem;
+  position: relative;
+}
+.promoteImg-box::after {
+  content: url('../../assets/starrk.png');
+  top: 16%;
+  position: absolute;
+  left: -6%;
+}
+
+.promoteImg-box img {
+  margin-bottom: 2.6rem;
+}
+.promoteImg-box::before {
+  content: url('../../assets/curvedS.png');
+  position: absolute;
+  right: 0%;
+  bottom: 8%;
+}
+.promote-subheading {
+  font-family: 'Clash Display';
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin-bottom: 2rem;
+}
+.promote-summary {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
