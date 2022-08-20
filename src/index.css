@@ -15,6 +15,7 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 @media (max-width: 1400px) {
   html {
@@ -23,12 +24,12 @@ html {
 }
 @media (max-width: 1260px) {
   html {
-    font-size: 53%;
+    font-size: 56%;
   }
 }
 body {
   font-family: 'Inter', sans-serif;
-
+  overflow-x: hidden;
   font-weight: 400;
   color: var(--text-color);
 }
@@ -36,6 +37,10 @@ body {
   max-width: 140rem;
   padding: 0 3.2rem;
   margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
 }
 .grid-2-cols {
   display: grid;
@@ -47,14 +52,19 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
 }
+.grid-4-cols {
+  display: grid;
+  gap: 9rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-family: 'Clash Display';
   font-weight: 600;
   font-size: 4.8rem;
   margin-bottom: 4rem;
 }
-.text-summary {
-}
+
 .white {
   background-color: var(--color-white);
   color: var(--text-color);
@@ -80,6 +90,7 @@ body {
   background-color: #fff;
   border: 0.2rem solid var(--text-color);
   cursor: pointer;
+  z-index: 9;
 }
 .play-btn p {
   font-size: 1.2rem;
@@ -88,4 +99,48 @@ body {
 }
 .font {
   font-size: 1.6rem !important;
+}
+/* QUerIES */
+@media (max-width: 1056px) {
+  .grid-4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    align-items: center;
+  }
+  .grid-2-cols {
+    gap: 4rem;
+  }
+  .heading-primary {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .heading-primary {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .grid-2-cols,
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid-4-cols {
+    row-gap: 3rem;
+    column-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  .card-3 {
+    width: 100%;
+  }
+}
+@media (max-width: 589px) {
+  .grid-4-cols {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 0 2rem;
+  }
 }

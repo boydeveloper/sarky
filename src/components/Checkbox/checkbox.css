@@ -1,20 +1,24 @@
 .check-conc {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 1.2rem 3.3rem;
   width: 25rem;
-  height: 5.6rem;
-}
-#label {
-  width: 25rem;
+  margin: 0 auto;
 
-  background-color: #fff;
-  border: 1px solid #000;
-  position: relative;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  border-radius: 0.3rem;
+  transition: all 0.2s;
+  cursor: pointer;
 }
-.box {
+.month,
+.year {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.active {
   background-color: var(--bg-green);
-  padding: 1.7rem, 3.6rem, 1.7rem, 3.6rem;
-  position: absolute;
-  top: 0;
+  padding: 1rem 3.3rem;
+  border-radius: 0.3rem;
 }

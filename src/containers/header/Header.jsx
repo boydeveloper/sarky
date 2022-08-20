@@ -48,7 +48,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="heroShape"></div>
+        <span className="heroShape"></span>
       </div>
     </div>
   );

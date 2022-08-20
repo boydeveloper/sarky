@@ -4,8 +4,8 @@ import {
   Navbar,
   FAQ,
   Numbers,
-  Checkbox,
   FeatureCards,
+  Copyright,
 } from './components';
 import './App.css';
 import {
@@ -48,6 +48,7 @@ function App() {
         <Cta />
         <Footer />
       </footer>
+      <Copyright />
     </>
   );
 }

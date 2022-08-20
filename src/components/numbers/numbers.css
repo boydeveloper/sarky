@@ -21,3 +21,27 @@
   font-weight: 500;
   font-size: 7.2rem;
 }
+
+@media (max-width: 1056px) {
+  .Numbers {
+    gap: 1rem;
+  }
+  .Number-head {
+    font-size: 7rem;
+  }
+}
+@media (max-width: 768px) {
+  .Numbers {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  br {
+    display: none;
+  }
+  .Number {
+    align-items: center;
+  }
+  .Number:last-child {
+    justify-self: auto;
+  }
+}

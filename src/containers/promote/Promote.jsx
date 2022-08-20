@@ -10,6 +10,7 @@ function Promote() {
           <img src={video} alt="social video" />
           <button className="play-btn">
             <FaPlayCircle className="promote-icon" />
+            <div className="stroke"></div>
             <p>Watch a video</p>
           </button>
         </div>

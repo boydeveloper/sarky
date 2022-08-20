@@ -6,14 +6,14 @@ function Features() {
   return (
     <div className="container">
       <div className="features-grid margin-bottom">
-        <h2 className="features-heading">
+        <h2 className="heading-primary">
           Take the lead in smartly social media marketing
         </h2>
-        <p className="features-summary">
+        <div className="features-summary">
           We offer some special services through which you can easily complete
           the marketing work on social media. Which helps increase your lead and
           sales.
-        </p>
+        </div>
       </div>
       <div className="grid-3-cols">
         <div className="card">
@@ -36,7 +36,7 @@ function Features() {
           </p>
           <span className="card-cta">Discover More &rarr;</span>
         </div>
-        <div className="card">
+        <div className="card card-3">
           <img src={phone} alt="card illustration" />
 
           <h3 className="card-heading">Search Engine Optimization</h3>

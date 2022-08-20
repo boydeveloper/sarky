@@ -5,4 +5,5 @@
   font-size: 1.6rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  z-index: 9;
 }

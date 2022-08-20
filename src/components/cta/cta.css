@@ -1,19 +1,19 @@
 .cta {
   background-color: var(--bg-green);
-  border-radius: 5rem;
+  border-radius: 2rem;
   padding: 8rem;
   position: relative;
   margin-bottom: 9.4rem;
+  background-image: url('../../assets/Mask.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top bottom;
 }
-.cta::after {
-  content: url('../../assets/bigWstroke.png');
-  position: absolute;
-  top: -0.5%;
-  left: -1.5%;
-}
-.cta::before {
-  content: url('../../assets/wNoodles.png');
-  position: absolute;
-  right: 15%;
-  top: 30%;
+
+/* QUERIES */
+@media (max-width: 589px) {
+  .cta {
+    padding: 4rem 0;
+    background-image: url('../../assets/Mask@.png');
+  }
 }

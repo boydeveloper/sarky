@@ -1,5 +1,5 @@
 import './featureCards.css';
-import { FaCheck } from 'react-icons/fa';
+import { FaCheck, FaDollarSign } from 'react-icons/fa';
 import Checkbox from '../Checkbox/Checkbox';
 function FeatureCards() {
   return (
@@ -14,7 +14,10 @@ function FeatureCards() {
       <div className="grid-3-cols">
         <div className="pricing-cards grey">
           <div className="pricing-plan">Starter</div>
-          <strong className="pricing-price">$ 5.00</strong>
+          <div className="flex">
+            <FaDollarSign size={30} className="dollar" />
+            <strong className="pricing-price">$ 5.00</strong>
+          </div>
           <div className="pricing-duration">Per Month</div>
           <div className="border"></div>
           <ul className="pricing-lists">
@@ -40,8 +43,11 @@ function FeatureCards() {
           <button className="pricing-btn transperent">Get Started</button>
         </div>
         <div className="pricing-cards black">
-          <div className="pricing-plan">Starter</div>
-          <strong className="pricing-price">$ 45.00</strong>
+          <div className="pricing-plan">Basic</div>
+          <div className="flex">
+            <FaDollarSign size={30} className="dollar" />
+            <strong className="pricing-price">$ 45.00</strong>
+          </div>
           <div className="pricing-duration">Per Month</div>
           <div className="border"></div>
           <ul className="pricing-lists">
@@ -49,7 +55,7 @@ function FeatureCards() {
               <span className="card-icon">
                 <FaCheck />
               </span>
-              <p>3 Social Media Account</p>
+              <p>5 Social Media Account</p>
             </li>
             <li className="pricing-list">
               <span className="card-icon">
@@ -66,9 +72,12 @@ function FeatureCards() {
           </ul>
           <button className="pricing-btn white">Get Started</button>
         </div>
-        <div className="pricing-cards grey">
-          <div className="pricing-plan">Starter</div>
-          <strong className="pricing-price">$ 230.00</strong>
+        <div className="pricing-cards grey card-3">
+          <div className="pricing-plan">Premium</div>
+          <div className="flex">
+            <FaDollarSign size={30} className="dollar" />
+            <strong className="pricing-price">230.00</strong>
+          </div>
           <div className="pricing-duration">Per Month</div>
           <div className="border"></div>
           <ul className="pricing-lists">
@@ -76,7 +85,7 @@ function FeatureCards() {
               <span className="card-icon">
                 <FaCheck />
               </span>
-              <p>3 Social Media Account</p>
+              <p>10 Social Media Account</p>
             </li>
             <li className="pricing-list">
               <span className="card-icon">

@@ -4,7 +4,7 @@
   background-color: #f1dfd5;
 }
 .section-features {
-  padding: 10rem 0;
+  padding: 10rem 0 10rem 0;
 }
 .section-social {
   padding-bottom: 10rem;
@@ -20,6 +20,7 @@
 .section-footer {
   padding: 10rem 0;
 }
+
 .section-testimonials {
   background-color: #f1dfd5;
   position: relative;
@@ -35,4 +36,28 @@
   top: 0%;
   position: absolute;
   right: 20%;
+}
+/* QUERIES */
+@media (max-width: 768px) {
+  .section-cards,
+  .section-promote,
+  .section-testimonials,
+  .section-features,
+  .section-footer {
+    padding: 4rem 0;
+  }
+  .section-testimonials::before {
+    content: url('./assets/blackShape2.png');
+    top: -0.5%;
+    left: -2%;
+  }
+  .section-social {
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 589px) {
+  .section-hero {
+    padding-bottom: 5rem;
+  }
 }

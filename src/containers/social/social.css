@@ -31,3 +31,15 @@
 .mb-sm {
   margin-bottom: 4rem;
 }
+/* QUERIES */
+
+@media (max-width: 1056px) {
+  .img-box-2 {
+    justify-self: left;
+    grid-row: 1;
+    width: 100%;
+  }
+  .img-box {
+    width: 100%;
+  }
+}

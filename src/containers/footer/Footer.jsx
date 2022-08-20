@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="container">
       <div className="grid-4-cols">
-        <div className="ft-box">
+        <div className="ft-box ft-box-1">
           <img src={Logo} alt="logo" className="ft-logo" />
           <p className="ft-text">
             There are many variations of passages of Lorem the Ipsum available
@@ -18,7 +18,7 @@ function Footer() {
             <button>Subscribe</button>
           </div>
         </div>
-        <div className="ft-box">
+        <div className="ft-box ft-box-2">
           <h2 className="ft-heading">Services</h2>
           <ul className="ft-links">
             <li className="ft-link">
@@ -35,7 +35,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="ft-box">
+        <div className="ft-box ft-box-3">
           <h2 className="ft-heading">About Us</h2>
           <ul className="ft-links">
             <li className="ft-link">
@@ -52,7 +52,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="ft-box">
+        <div className="ft-box ft-box-4">
           <h2 className="ft-heading">Services</h2>
           <p className="ft-text">
             455 West Orchard Street Kings Mountain, NC 280867

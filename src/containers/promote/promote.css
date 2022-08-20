@@ -1,29 +1,24 @@
 .promoteImg-box {
   background-color: var(--bg-green);
-  padding: 3.4rem 11.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-self: left;
   justify-content: center;
   border-radius: 2rem;
+  padding: 2rem;
   position: relative;
 }
-.promoteImg-box::after {
-  content: url('../../assets/starrk.png');
-  top: 16%;
-  position: absolute;
-  left: -6%;
-}
-
 .promoteImg-box img {
-  margin-bottom: 2.6rem;
+  max-width: 36.1rem;
+  margin-bottom: 2rem;
 }
-.promoteImg-box::before {
-  content: url('../../assets/curvedS.png');
+.stroke {
   position: absolute;
-  right: 0%;
-  bottom: 8%;
+  right: 0;
+  bottom: 2%;
+  width: 20rem;
+
+  content: url('../../assets/curvedS.png');
 }
 .promote-subheading {
   font-family: 'Clash Display';
@@ -34,4 +29,17 @@
 .promote-summary {
   font-size: 1.8rem;
   line-height: 2.8rem;
+}
+
+@media (max-width: 768px) {
+  .stroke {
+    width: 18rem;
+  }
+}
+@media (max-width: 589px) {
+  .stroke {
+    width: 17rem;
+    right: -8%;
+    bottom: 6%;
+  }
 }

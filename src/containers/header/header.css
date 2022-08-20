@@ -12,7 +12,8 @@
   content: url('../../assets/Socialicons.png');
   position: absolute;
   width: 100%;
-  top: 20%;
+  min-width: 36.4rem;
+  top: 10%;
 }
 .hero-heading {
   font-size: 8rem;
@@ -20,13 +21,14 @@
   font-weight: 600;
   line-height: 9rem;
   margin-bottom: 1.8rem;
+
   position: relative;
 }
 .hero-heading::after {
-  content: url(../../assets/shapes.png);
+  content: url('../../assets/strokes.png');
   position: absolute;
-  top: -23%;
-  right: -3%;
+  top: -18%;
+  right: -6%;
 }
 .hero-summary {
   font-size: 2rem;
@@ -38,14 +40,15 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 .heroShape {
   content: url('../../assets/shapei.png');
-  display: block;
   position: absolute;
   right: 0%;
   bottom: 6%;
+  width: 100%;
+  max-width: 18rem;
 }
 .ratings {
   display: flex;
@@ -68,11 +71,12 @@
 .stars {
   display: flex;
   align-items: center;
-  margin-left: 1.4rem;
+  margin-left: 1rem;
 }
 .stars span {
   display: flex;
   align-items: center;
+
   justify-content: center;
   gap: 0.2rem;
 }
@@ -83,4 +87,66 @@
 .star {
   color: #f59e0b;
   font-size: 2rem;
+}
+
+@media (max-width: 1056px) {
+  .hero-heading {
+    font-size: 6.5rem;
+    line-height: 7rem;
+  }
+  .textbox-img {
+    top: 30%;
+  }
+  .hero-heading::after {
+    display: none;
+    top: 26%;
+    content: url('../../assets/shapesStrokem.png');
+    right: 6%;
+    max-width: 5rem;
+  }
+  .hero-summary {
+    margin-bottom: 3rem;
+  }
+  .hero {
+    padding-top: 2rem;
+  }
+  .hero-summary {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .heroShape {
+    bottom: 5%;
+  }
+}
+
+@media (max-width: 589px) {
+  .hero-heading::after {
+    display: block;
+  }
+  .social {
+    background-image: none;
+    font-weight: 600;
+  }
+  .heroShape {
+    max-width: 8rem;
+  }
+  .hero-heading {
+    font-size: 4.6rem;
+    line-height: 5.2rem;
+  }
+  .hero-ctas {
+    flex-direction: column;
+  }
+
+  .ratings {
+    flex-direction: column;
+  }
+  .textbox-img {
+    top: 60%;
+    min-width: 36.4rem;
+  }
+  .brandName {
+    margin-bottom: 1.68rem;
+  }
 }

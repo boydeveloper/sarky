@@ -1,11 +1,13 @@
 import React from 'react';
 
-function copyright() {
+function Copyright() {
   return (
     <div className="container">
-      <div className="text-center">© 2022 Sark All Rights Reserved</div>
+      <div className="copyright">
+        <div className="text-center">© 2022 Sark All Rights Reserved</div>
+      </div>
     </div>
   );
 }
 
-export default copyright;
+export default Copyright;

@@ -12,3 +12,11 @@
   line-height: 2.6rem;
   max-width: 49.6rem;
 }
+@media (max-width: 768px) {
+  .faq-subtext {
+    max-width: none;
+  }
+  .FAQ {
+    margin-top: 4rem;
+  }
+}
