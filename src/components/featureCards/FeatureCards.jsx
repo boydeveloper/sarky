@@ -12,7 +12,7 @@ function FeatureCards() {
       </div>
 
       <div className="grid-3-cols">
-        <div className="pricing-cards grey">
+        <div className="pricing-cards grey" data-aos="fade-up">
           <div className="pricing-plan">Starter</div>
           <div className="flex">
             <FaDollarSign size={30} className="dollar" />
@@ -42,7 +42,7 @@ function FeatureCards() {
           </ul>
           <button className="pricing-btn transperent">Get Started</button>
         </div>
-        <div className="pricing-cards black">
+        <div className="pricing-cards black" data-aos="fade-up">
           <div className="pricing-plan">Basic</div>
           <div className="flex">
             <FaDollarSign size={30} className="dollar" />
@@ -72,7 +72,7 @@ function FeatureCards() {
           </ul>
           <button className="pricing-btn white">Get Started</button>
         </div>
-        <div className="pricing-cards grey card-3">
+        <div className="pricing-cards grey card-3" data-aos="fade-up">
           <div className="pricing-plan">Premium</div>
           <div className="flex">
             <FaDollarSign size={30} className="dollar" />

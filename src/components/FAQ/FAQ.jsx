@@ -3,7 +3,7 @@ function FAQ() {
   return (
     <div className="container">
       <div className="grid-2-cols FAQ">
-        <div className="question-overview-1">
+        <div className="question-overview-1" data-aos="fade-up">
           <h3 className="faq-heading">
             Q. What support and service package are available?
           </h3>
@@ -21,7 +21,7 @@ function FAQ() {
             elit volutpat ut et.
           </p>
         </div>
-        <div className="question-overview-2">
+        <div className="question-overview-2" data-aos="fade-up">
           <h3 className="faq-heading">
             Q. What support and service package are available?
           </h3>

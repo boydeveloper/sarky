@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <div className="container">
-        <div className="grid-4-cols">
+        <div className="grid-4-cols footer" data-aos="fade-up">
           <div className="ft-box ft-box-1">
             <img src={Logo} alt="logo" className="ft-logo" />
             <p className="ft-text">

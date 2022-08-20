@@ -8,13 +8,13 @@ function Testimonials() {
   return (
     <div className="container ">
       <div className="text-center">
-        <h2 className="heading-primary">
+        <h2 className="heading-primary" data-aos="fade-up">
           Give our users a <br />
           great experience
         </h2>
       </div>
       <div className="grid-3-cols">
-        <div className="testimonial-box">
+        <div className="testimonial-box" data-aos="fade-up">
           <img src={quote} alt="quote marking" className="quote-img" />
           <h1 className="testimonial-text">
             "They are able to help a startup like mine scale and are very
@@ -29,7 +29,7 @@ function Testimonials() {
             </span>
           </div>
         </div>
-        <div className="testimonial-box">
+        <div className="testimonial-box" data-aos="fade-up">
           <img src={quote} alt="quote marking" className="quote-img" />
           <h1 className="testimonial-text">
             "They are able to help a startup like mine scale and are very
@@ -44,7 +44,7 @@ function Testimonials() {
             </span>
           </div>
         </div>
-        <div className="testimonial-box">
+        <div className="testimonial-box" data-aos="fade-up">
           <img src={quote} alt="quote marking" className="quote-img" />
           <h1 className="testimonial-text">
             "They are able to help a startup like mine scale and are very

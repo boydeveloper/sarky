@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import {
   Cta,
   Navbar,
@@ -8,6 +9,8 @@ import {
   Copyright,
 } from './components';
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
   Features,
   Footer,
@@ -18,6 +21,10 @@ import {
 } from './containers';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <section className="section-hero">

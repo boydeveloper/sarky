@@ -6,16 +6,16 @@ function Features() {
   return (
     <div className="container">
       <div className="features-grid margin-bottom">
-        <h2 className="heading-primary">
+        <h2 className="heading-primary" data-aos="fade-up">
           Take the lead in smartly social media marketing
         </h2>
-        <div className="features-summary">
+        <div className="features-summary" data-aos="fade-up">
           We offer some special services through which you can easily complete
           the marketing work on social media. Which helps increase your lead and
           sales.
         </div>
       </div>
-      <div className="grid-3-cols">
+      <div className="grid-3-cols " data-aos="fade-up">
         <div className="card">
           <img src={bell} alt="card illustration" />
 

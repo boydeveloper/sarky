@@ -1,3 +1,6 @@
+.footer {
+  padding-bottom: 4rem;
+}
 .ft-logo {
   margin-bottom: 2.4rem;
 }
@@ -76,6 +79,7 @@
 }
 .copyright {
   padding: 2rem 0;
+  margin-top: 4rem;
   font-size: 1.6rem;
   border-top: solid 0.1rem var(--text-color);
 }

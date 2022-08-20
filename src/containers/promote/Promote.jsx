@@ -5,7 +5,7 @@ function Promote() {
   return (
     <div className="container">
       <div className="grid-2-cols">
-        <div className="promoteImg-box ">
+        <div className="promoteImg-box " data-aos="fade-up">
           <img src={video} alt="social video" />
           <button className="play-btn">
             <FaPlayCircle className="promote-icon" />
@@ -13,7 +13,7 @@ function Promote() {
             <p>Watch a video</p>
           </button>
         </div>
-        <div className="PromoteTextbox">
+        <div className="PromoteTextbox" data-aos="fade-up">
           <h2 className="heading-primary">
             The easiest way to promote social media
           </h2>

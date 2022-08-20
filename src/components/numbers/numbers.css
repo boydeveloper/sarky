@@ -1,19 +1,19 @@
 .Numbers {
-  display: grid;
-  gap: 5rem;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  overflow: hidden;
+  width: calc(300px * 8);
+  animation: scroll 10s linear infinite;
 }
+
 .Number {
   display: flex;
+  width: 400px;
   flex-direction: column;
 }
-.Number:last-child {
-  justify-self: right;
-}
+
 .Number-dur {
   font-weight: 400;
   font-size: 1.8rem;
-
   opacity: 0.6;
 }
 .Number-head {
@@ -21,7 +21,11 @@
   font-weight: 500;
   font-size: 7.2rem;
 }
-
+@keyframes scroll {
+  100% {
+    transform: translateX(calc(-300px * 4));
+  }
+}
 @media (max-width: 1056px) {
   .Numbers {
     gap: 1rem;
@@ -31,17 +35,21 @@
   }
 }
 @media (max-width: 768px) {
-  .Numbers {
-    grid-template-columns: 1fr;
-    place-items: center;
-  }
   br {
     display: none;
   }
-  .Number {
-    align-items: center;
+  .Numbers {
+    width: calc(200px * 8);
   }
-  .Number:last-child {
-    justify-self: auto;
+  .Number {
+    width: 200px;
+  }
+  .Number-head {
+    font-size: 4.8rem;
+  }
+  @keyframes scroll {
+    100% {
+      transform: translateX(calc(-200px * 4));
+    }
   }
 }

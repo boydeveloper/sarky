@@ -3,7 +3,7 @@ import './cta.css';
 function CTA() {
   return (
     <div className="container ">
-      <div className="cta">
+      <div className="cta" data-aos="fade-up">
         <div className="text-center">
           <h1 className="heading-primary cta-heading">
             Want to talk to a <br /> marketing expert?

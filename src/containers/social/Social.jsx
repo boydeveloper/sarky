@@ -6,10 +6,10 @@ function Social() {
   return (
     <div className="container">
       <div className="grid-2-cols margin-bottom">
-        <div className="img-box">
+        <div className="img-box" data-aos="fade-up">
           <img src={faces} alt="faces social" />
         </div>
-        <div className="socialText-box">
+        <div className="socialText-box" data-aos="fade-up">
           <h1 className="heading-primary">
             Bring your target users together on social media
           </h1>
@@ -25,7 +25,7 @@ function Social() {
         </div>
       </div>
       <div className="grid-2-cols">
-        <div className="socialText-box">
+        <div className="socialText-box" data-aos="fade-up">
           <h1 className="heading-primary">
             Build your brand & reach out to social followers
           </h1>
@@ -39,7 +39,7 @@ function Social() {
             broader audience & get partners brand advocates to post content.
           </p>
         </div>
-        <div className="img-box-2">
+        <div className="img-box-2" data-aos="fade-up">
           <img src={potrait} alt="faces social" />
         </div>
       </div>

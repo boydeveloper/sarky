@@ -20,7 +20,9 @@
 .section-footer {
   padding: 10rem 0;
 }
-
+.section-footer {
+  padding-bottom: 4rem;
+}
 .section-testimonials {
   background-color: #f1dfd5;
   position: relative;
