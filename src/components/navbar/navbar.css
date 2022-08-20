@@ -86,9 +86,6 @@
   .search button {
     padding: 1.7rem 2.5rem;
   }
-  .flex {
-    display: none;
-  }
 }
 @media (max-width: 589px) {
   .open-nav {

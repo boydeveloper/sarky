@@ -16,7 +16,7 @@ function FeatureCards() {
           <div className="pricing-plan">Starter</div>
           <div className="flex">
             <FaDollarSign size={30} className="dollar" />
-            <strong className="pricing-price">$ 5.00</strong>
+            <strong className="pricing-price"> 5.00</strong>
           </div>
           <div className="pricing-duration">Per Month</div>
           <div className="border"></div>
@@ -46,7 +46,7 @@ function FeatureCards() {
           <div className="pricing-plan">Basic</div>
           <div className="flex">
             <FaDollarSign size={30} className="dollar" />
-            <strong className="pricing-price">$ 45.00</strong>
+            <strong className="pricing-price"> 45.00</strong>
           </div>
           <div className="pricing-duration">Per Month</div>
           <div className="border"></div>
