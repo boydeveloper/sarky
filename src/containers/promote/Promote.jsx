@@ -1,6 +1,5 @@
 import './promote.css';
 import video from '../../assets/Image.png';
-import Button from '../../components/button/Button';
 import { FaPlayCircle } from 'react-icons/fa';
 function Promote() {
   return (
