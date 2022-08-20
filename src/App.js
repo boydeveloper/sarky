@@ -48,7 +48,6 @@ function App() {
         <Cta />
         <Footer />
       </footer>
-      <Copyright />
     </>
   );
 }
